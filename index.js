@@ -1,4 +1,4 @@
-const notCssImport = modName => !modName.endsWith('.css');
+const notCssImport = modName => !/.*\.(css|scss|sass|less)$/m.test(modName);
 
 const notRequire = (t, nodePath) => {
   const [ requireArg, ...rest ] = nodePath.node.arguments;

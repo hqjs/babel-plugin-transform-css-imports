@@ -1,7 +1,7 @@
 {
   "name": "@hqjs/babel-plugin-transform-css-imports",
   "version": "0.0.2",
-  "description": "Transform css imports",
+  "description": "Transform css imports, supports css modules",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,9 +15,11 @@
     "plugin",
     "hq",
     "css",
-    "import"
+    "import",
+    "modules",
+    "css modules"
   ],
-  "author": "hqjs <hqjsorg@gmail.com>",
+  "author": "hqjs <hqjs.org@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hqjs/babel-plugin-transform-css-imports/issues"
